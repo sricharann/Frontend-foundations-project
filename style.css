@@ -1,5 +1,5 @@
 /* -------  General Styles ------- */
-
+/** Styles for Mobile first*/
 body {
   font-family: "Lato", sans-serif;
 }
@@ -67,7 +67,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ header nav ul li {
 header nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 0 20px 0 0;
+  padding: 0 20vw 0 0;
 }
 
 header nav ul li a:hover {
@@ -103,7 +103,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 10vw;
 }
 .row{
   display: flex;
@@ -142,6 +142,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+/** Style for more screen width more than 480px */
 @media all and (min-width:480px) {
   header {
     display: flex;

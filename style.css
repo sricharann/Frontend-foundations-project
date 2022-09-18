@@ -114,16 +114,19 @@ form button {
   background-color: #ff385c;
   border: none;
   color: #fff;
-  font-size: 24px;
-  padding: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-  width: 100%;
+  padding: 1vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  
 }
 
 form div{
   display: flex;
   justify-content: space-between;
+}
+
+form div button {
+  display:block;
 }
 
 /* -------  Footer ------- */

@@ -143,15 +143,29 @@ footer p {
   header {
     display: flex;
     align-items: flex-end;
+    align-content: center;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px 0 0;
   }
   .logo {
+   
     margin-right: auto;
+    font-size: 3.2vw;
   }
   .nav {
     padding-bottom: -10px;
   }
+  
   form{
     flex-direction: row;
+  }
+
+  form select,form input {
+    margin-bottom: 20px;
+    width: 15vw;
   }
 
   form div {
@@ -177,7 +191,7 @@ footer p {
   }
 
   #about-content img{
-    width: 350px;
+    width: 30vw;
   }
   .grid-container{
     display:grid;

@@ -145,7 +145,6 @@ footer p {
 @media all and (min-width:480px) {
   header {
     display: flex;
-    align-items: flex-end;
     align-content: center;
   }
   header nav ul li a {
@@ -171,6 +170,13 @@ footer p {
     width: 15vw;
   }
 
+  form button {
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+  }
+
   form div {
    display: flex;
    flex-direction: column;
@@ -183,6 +189,7 @@ footer p {
   #about-content{
     display: flex;
     flex-direction: row;
+    font-size:10vw;
     padding: 10px;
   }
 

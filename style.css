@@ -189,7 +189,7 @@ footer p {
   #about-content{
     display: flex;
     flex-direction: row;
-    font-size:10vw;
+    font-size:1.5vw;
     padding: 10px;
   }
 

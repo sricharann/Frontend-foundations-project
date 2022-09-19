@@ -67,7 +67,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 16px;
+  font-size: 16vw;
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ header nav ul li {
 header nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 0 20vw 0 0;
+  padding: 0 2vw 0 0;
 }
 
 header nav ul li a:hover {
@@ -103,7 +103,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 10vw;
+  width: 60%;
 }
 .row{
   display: flex;
@@ -114,9 +114,8 @@ form button {
   background-color: #ff385c;
   border: none;
   color: #fff;
-  padding: 1vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding: 3vw;
+  width: 100%;
   
 }
 
